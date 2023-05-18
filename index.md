@@ -30,9 +30,22 @@ vim L Tab .j <Tab> <enter>
 # Move cursor to top-left. Locate to the bug in the code where the index being added should be index 2 instead of index 1 in the final loop.
 
 ```
+<img width="1023" alt="截屏2023-05-17 19 33 23" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/83fdc36b-b9cc-49fc-804c-57ac748322a0">
+<img width="711" alt="截屏2023-05-17 19 33 40" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/ca96da23-fbf1-4153-ad65-a40aa8ef928c">
 
 # Step 8: Run the tests, demonstrating that they now succeed
 ```
 Keys pressed: <up><up><up><enter>
 # run bash test.sh. This command is 3 up in history.
 ```
+<img width="401" alt="截屏2023-05-17 19 34 06" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/7d4fefac-050d-4f10-a4c2-db9ebf0baedc">
+
+# Step 9: Commit and push the resulting change to your Github account
+```
+$ git commit --amend
+<enter>
+$ git push origin main
+<enter>
+```
+<img width="597" alt="截屏2023-05-17 19 41 09" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/10cfbbc1-912b-450a-8b09-fff0bfa60266">
+<img width="522" alt="截屏2023-05-17 20 00 22" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/299c01e4-b52e-4fba-88dc-e48ce602b0d0">
