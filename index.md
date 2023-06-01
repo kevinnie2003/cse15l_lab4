@@ -15,7 +15,7 @@ If you did not generate an SSH key, you should enter your password, like this:
 ```
 $ ssh cs15lsp23??@ieng6.ucsd.edu <enter-your password>
 <enter>
-## Replace ?? with your account name
+# Replace ?? with your account name
 ```
 <img width="945" alt="截屏2023-05-17 18 29 49" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/a0ee3b74-2389-4d0f-8171-09e30fada609">
 
