@@ -2,6 +2,9 @@
 ```
 $ ssh cs15lsp23cx@ieng6.ucsd.edu
 <enter>
+# The reason for not needing to enter a password is that I have generated a SSH key for ieng6. 
+# When I log in from my local computer, I won't be prompted for a password.
+# Here is the link from the course website that introduces how: https://ucsd-cse15l-s23.github.io/week/week7/#generating-ssh-keys-for-ieng6
 ```
 <img width="945" alt="截屏2023-05-17 18 29 49" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/a0ee3b74-2389-4d0f-8171-09e30fada609">
 
