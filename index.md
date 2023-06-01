@@ -1,9 +1,9 @@
-# Step 4: Log into ieng6
+## Step 4: Log into ieng6
 ```
 $ ssh cs15lsp23cx@ieng6.ucsd.edu
 <enter>
 ```
-The reason for not needing to enter a password is that I have generated a SSH key for ieng6.
+The reason for not needing to enter a password is that I have generated an SSH key for ieng6.
 
 When I log in from my local computer, I won't be prompted for a password.
 
@@ -11,22 +11,28 @@ Here is the link from the course website that introduces how:
 
 https://ucsd-cse15l-s23.github.io/week/week7/#generating-ssh-keys-for-ieng6
 
+If you did not generate an SSH key, you should enter your password, like this:
+```
+$ ssh cs15lsp23??@ieng6.ucsd.edu <enter-your password>
+<enter>
+## Replace ?? with your account name
+```
 <img width="945" alt="截屏2023-05-17 18 29 49" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/a0ee3b74-2389-4d0f-8171-09e30fada609">
 
-# Step 5: Clone your fork of the repository from your Github account
+## Step 5: Clone your fork of the repository from your Github account
 ```
 $ git clone https://github.com/kevinnie2003/lab7
 <enter>
 ```
 <img width="675" alt="截屏2023-05-17 18 36 05" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/688b2c62-9868-4b9e-b35d-8ecec0976cb7">
 
-# Step 6: Run the tests, demonstrating that they fail
+## Step 6: Run the tests, demonstrating that they fail
 ```
 Keys pressed: cd lab7 <enter>, bash test.sh <enter>
 ```
 <img width="729" alt="截屏2023-05-17 18 37 15" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/643df8f3-f47b-4d2b-be46-ccf05094552d">
 
-# Step 7: Edit the code file to fix the failing test
+## Step 7: Edit the code file to fix the failing test
 **There are two bugs. Here are the keys pressed to fix them one by one.**
 ```
 Keys pressed: vim L <Tab> T <Tab> <enter>
@@ -73,7 +79,7 @@ Then press :wq and enter to save and quit.
 
 <img width="711" alt="截屏2023-05-17 19 33 40" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/ca96da23-fbf1-4153-ad65-a40aa8ef928c">
 
-# Step 8: Run the tests, demonstrating that they now succeed
+## Step 8: Run the tests, demonstrating that they now succeed
 ```
 Keys pressed: <up><up><up><enter>
 ```
@@ -81,7 +87,7 @@ Run bash test.sh. This command is 3 up in history.
 
 <img width="401" alt="截屏2023-05-17 19 34 06" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/7d4fefac-050d-4f10-a4c2-db9ebf0baedc">
 
-# Step 9: Commit and push the resulting change to your Github account
+## Step 9: Commit and push the resulting change to your Github account
 ```
 $ git commit --amend
 <enter>
