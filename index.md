@@ -31,11 +31,11 @@ Keys pressed: cd lab7 <enter>, bash test.sh <enter>
 ```
 Keys pressed: vim L <Tab> T <Tab> <enter>
 ```
-Tab allows users to quickly navigate through the system and execute commands without typing the full name of the command. 
+Tab allows users to quickly navigate through the system and execute commands without typing the full name of the file or command. 
 
 By pressing Tab, it can automatically complete a partially typed file or command name.
 
-In our case, this is the same as "vim ListExamples.java"
+In our case, this is the same as "vim ListExamplesTest.java"
 
 Now editing the file ListExamplesTest.java.
 ```
@@ -53,7 +53,7 @@ Then press :wq and enter to save and quit.
 ```
 vim L Tab .j <Tab> <enter>
 ```
-By pressing Tab, it is autocomplete with vim ListExamples.java
+By pressing Tab, the command is autocomplete with "vim ListExamples.java".
 
 Now editing the file ListExamples.java.
 ```
@@ -70,6 +70,7 @@ Use r2 to replace the 1 with 2.
 Then press :wq and enter to save and quit.
 
 <img width="1023" alt="截屏2023-05-17 19 33 23" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/83fdc36b-b9cc-49fc-804c-57ac748322a0">
+
 <img width="711" alt="截屏2023-05-17 19 33 40" src="https://github.com/kevinnie2003/cse15l_lab4/assets/122497019/ca96da23-fbf1-4153-ad65-a40aa8ef928c">
 
 # Step 8: Run the tests, demonstrating that they now succeed
